@@ -3,7 +3,7 @@ let len = 0;
 let i = 0;
 var points = 0;
 const text = "Total:";
-let o = g = v = a = y = p = w1 = w2 = w3 = 1; 
+let o = g = v = a = y = p = w1 = w2 = w3 = w4 = 1; 
 function orange() {
 	
 	if(o === 1)
