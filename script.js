@@ -54,6 +54,7 @@ function cross() {
 	 for(i=0; i<len ; i++){
 	 	color[i].innerHTML = "<i class='fa fa-close'></i>";
 	 }
-		document.getElementById("total").innerHTML = text +	points;
+	document.getElementById("total").innerHTML = text +	points;
+	alert("GAME OVER!! your score = " +points)
 	location.reload();
 }
