@@ -56,6 +56,12 @@ body{
 .pink-d{
 	background: #ff4dff;
 }
+.white-d{
+	background: #ffffff;
+}
+.yellow-d{
+	background: #ffff00;
+}
 .fa{
 	text-align: center;
 	font-size:  20px;
