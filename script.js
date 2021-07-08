@@ -15,6 +15,10 @@ function orange() {
 	 	points += 5;
 	 }
 	 document.getElementById("total").innerHTML = text +	points;
+	 if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
 	 o++;
 	}
 }
@@ -30,6 +34,10 @@ function green() {
 	 	points += 7;
 	 }
 	 document.getElementById("total").innerHTML = text +	points;
+	 if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
 	 g++;
 	} 
 }
@@ -44,6 +52,10 @@ function voilet() {
 	 	points += 8;
 	 }
 	 document.getElementById("total").innerHTML = text +	points;
+	 if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
 	 v++;
 	} 
 }
@@ -57,6 +69,10 @@ function aqua() {
 	 	points += 15;
 	 }
 	 document.getElementById("total").innerHTML = text +	points;
+	 if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
 	 a++;
 	}
 }
@@ -71,6 +87,10 @@ function pink() {
 	 	points += 5;
 	 }
 	 document.getElementById("total").innerHTML = text +	points;
+	 if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
 	 p++;
 	}
 }
@@ -84,6 +104,10 @@ function yellow() {
 	 	points += 10;
 	 }
 	 document.getElementById("total").innerHTML = text +	points;
+	 if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
 	 y++;
 	}
 }
@@ -94,8 +118,13 @@ function white1() {
 	color.style.background = "#ffffff";
 	points += 25;
 	document.getElementById("total").innerHTML = text +	points;
-	w1++;	
+		
 	}
+	if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
+	w1++;
 }
 function white2() {
 	w2 = 1;
@@ -104,8 +133,13 @@ function white2() {
 	color.style.background = "#ffffff";
 	points += 25;
 	document.getElementById("total").innerHTML = text +	points;
-	 w2++;	
+		
 	}
+	if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
+	w2++;
 }
 function white3() {
 	
@@ -115,6 +149,10 @@ function white3() {
 	points += 25;
 	document.getElementById("total").innerHTML = text +	points;	
 	}
+	if(points === 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
 	w3++;
 }
 function white4() {
@@ -123,9 +161,13 @@ function white4() {
 	color = document.getElementById("white4");
 	color.style.background = "#ffffff";
 	points += 25;
-	document.getElementById("total").innerHTML = text +	points;
-	 w4++;	
+	document.getElementById("total").innerHTML = text +	points;	
 	}
+	if(points == 1077)
+	{
+		document.getElementById("total").style.color = "red";
+	}
+	w4++;
 }
 function cross() {
 	 color = document.getElementsByClassName("cross");
@@ -137,3 +179,5 @@ function cross() {
 	alert("GAME OVER!! your score = " +points)
 	location.reload();
 }
+
+
