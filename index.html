@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="head-container col-lg-4  offset-lg-4 col-12">
+		<h1 class="head">COLOUR JENGA</h1>
+	</div>
+	<div class="container-fluid">
+		<div class = "col-lg-4 offset-lg-4 col-12">
+		  <div class="row">
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		  </div>
+		  <div class="row">
+		  	<div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone cross " onclick="cross()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua " onclick="aqua()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua " onclick="aqua()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		  </div>
+		  <div class="row">
+		  	<div class="col zone green" onclick="green()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone aqua" onclick="aqua()"></div>
+		    <div class="col zone voilet" onclick="voilet()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		  </div>
+		  <div class="row">
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone voilet" onclick="voilet()" onclick="orange()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone cross" onclick="cross()"></div>
+		    <div class="col zone orange" onclick="orange()"></div>
+		    <div class="col zone pink" onclick="pink()"></div>
+		    <div class="col zone green" onclick="green()"></div>
+		  </div>
+	  	</div>
+	  	<div class="container-fluid col-lg-4 offset-lg-4 col-12 description">
+	  	<div class="row">
+	  		<div class="col"><div class="block orange-d"></div><p>orange: 5</p></div>
+	  		<div class="col"><div class="block green-d"></div><p>green: 7</p></div>
+	  		<div class="col"><div class="block voilet-d"></div><p>voilet: 8</p></div>
+	  	</div>
+	  	<div class="row">
+	  		<div class="col"><div class=" block aqua-d"></div><p>aqua: 15</p></div>
+	  		<div class="col"><div class=" block pink-d"></div><p>pink: 20</p></div>
+	  		<div class="col"><div class=" block cross-d"><i class='fa fa-close small'></i></div><p>game-over</p></div>
+	  	</div>
+	  	<div class="row"><h4 id="total">Total: 0</h4></div>
+	  	</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
